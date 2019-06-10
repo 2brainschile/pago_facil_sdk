@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-     name='pago_facil',
+     name='pago_facil_sdk',
      version='0.1',
      scripts=[],
      author="Luis Cruz",

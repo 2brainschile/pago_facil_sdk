@@ -1,2 +1,4 @@
-pago_facil.egg-info
+build
+pago_facil_sdk.egg-info
 dist
+__pycache__
