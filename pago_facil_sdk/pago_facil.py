@@ -59,7 +59,7 @@ class Transaction():
 
         html += '    </form>';
         html += '    <script>';
-        html += '       //document.getElementById("requestForm").submit();'
+        html += '        document.getElementById("requestForm").submit();'
         html += '    </script>';
         html += '  </body>';
         html += '</html>';
