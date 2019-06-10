@@ -36,8 +36,6 @@ class Transaction():
 
         data_sorted = sorted(data.items(), key=lambda x:x[0])
         params = [v for k, v in data_sorted]
-        print(len(data_sorted), data_sorted)
-        print(">>>", "".join(params), "<<<")
 
         signature = Transaction.sign(self.token_secret, "".join(params))
         data.update({
